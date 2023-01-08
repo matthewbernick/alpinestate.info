@@ -73,9 +73,9 @@ input, select, textarea {
 }
 
 .logo-format {    
-	height: 98px;
+	height: 6vw;
     border-radius: 50px;
-    margin-top: 8px;
+    margin-top: 1vw;
 }
 
 /* Basic */
@@ -1299,11 +1299,13 @@ input, select, textarea {
 		
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
+			    width: 9vw;
+    height: 9vw;
+    line-height: 5.5rem;
+    border: solid 3px #ffffff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center
 		}
 
 			#header .logo .icon:before {
